@@ -1,0 +1,35 @@
+<!--pages/result/result.wxml-->
+<view class='container'>
+
+<image src='https://mp.psycoder.zzd123.com/puke/images/{{imgnum}}.jpg' mode="widthFix" style='width:90%;'></image>
+<view class="userinfo-userNickName">
+<open-data type="userNickName"></open-data>
+</view>
+<text class='info'>打开心结，重新梳理生命的意义</text>
+
+</view>
+
+<view class='container_bottom'>
+<!-- <view class='bottom-left' bindtap='GoIndex'>
+<text>再试一次</text>
+</view>
+<view class='bottom-right'>
+<text>我的微信号：sky20100</text>
+</view> -->
+
+<view class='bottom-item'  bindtap='GoIndex'>
+<image src='../../src/images/chongshi.png'></image>
+<text>重试</text>
+</view>
+<view class='bottom-item' bindtap="previewImage">
+<image src='../../src/images/dashang.png'></image>
+<text>打赏</text>
+</view>
+<view class='bottom-item' bindtap='lianxiweixin'>
+<image src='../../src/images/weixin.png'></image>
+<text>微信</text>
+</view>
+
+</view>
+
+

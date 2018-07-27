@@ -1,0 +1,46 @@
+page{
+  background-color: #c04d3b;
+}
+.userinfocontainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.zhanji{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.zhanji-item{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #bc4330;
+  border: 3px solid #efefef;
+  border-radius: 50% 50%;
+}
+.num{
+  font-size: 20pt;
+  color: #ffffff;
+}
+.title{
+  font-size: 12pt;
+  color: #cccccc;
+}
+.info{
+  margin: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #efefef;
+  border-radius: 10px;
+  font-size: 10pt;
+}
+.info text{
+  line-height: 30px;
+}

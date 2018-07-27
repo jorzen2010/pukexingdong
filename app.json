@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/info/info",
+    "pages/result/result",
+    "pages/paihang/paihang",
+    "pages/zhanji/zhanji"
+  ],
+  "window": {
+    "backgroundColor": "#a34136",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#c04d3b",
+    "navigationBarTitleText": "扑克测试",
+    "navigationBarTextStyle": "#000"
+  }
+}

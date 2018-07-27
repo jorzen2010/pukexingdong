@@ -1,0 +1,55 @@
+<!--pages/paihang/paihang.wxml 一周排行榜，本月排行榜-->
+<view class='tab-menu'  bindtap="tabFun">
+    <view class="tab-menu-item {{tabIndex=='0'? 'active' : ''}}" data-id="0">实力榜</view>
+    <view class="tab-menu-item {{tabIndex=='1'? 'active' : ''}}" data-id="1">运气榜</view>
+    <view class="tab-menu-item {{tabIndex=='2'? 'active' : ''}}" data-id="2">努力榜</view>
+</view>
+
+<view class='tab-content'>
+<view class="tab-content-item  {{tabIndex=='0'? 'active' : ''}}">
+<view class='listcontainer'>
+<block wx:for="{{shilipaihang}}" wx:key="key">
+<view class='list-item'>
+<text>NO.{{index+1}} {{item.nickName}}</text>
+<text>{{item.paihang}}</text>
+</view>
+</block>
+
+
+</view>
+</view>
+
+<view class="tab-content-item  {{tabIndex=='1'? 'active' : ''}}">
+<view class='listcontainer'>
+
+<block wx:for="{{yunqipaihang}}" wx:key="key">
+<view class='list-item'>
+<text>NO.{{index+1}} {{item.nickName}}</text>
+<text>{{item.paihang}}</text>
+</view>
+</block>
+
+
+
+
+</view>
+</view>
+
+<view class="tab-content-item  {{tabIndex=='2'? 'active' : ''}}">
+<view class='listcontainer'>
+
+<block wx:for="{{nulipaihang}}" wx:key="key">
+<view class='list-item'>
+<text>NO.{{index+1}} {{item.nickName}}</text>
+<text>{{item.paihang}}</text>
+</view>
+</block>
+
+
+
+</view>
+</view>
+
+
+
+</view>

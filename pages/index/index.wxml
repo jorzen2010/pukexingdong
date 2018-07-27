@@ -1,0 +1,27 @@
+<!--index.wxml-->
+
+<view class='container'>
+<view class='container_top'>
+<view class="userinfo-avatar">
+<open-data type="userAvatarUrl" class='avatar'></open-data>
+</view>
+<view class="userinfo-userNickName">
+<open-data type="userNickName"></open-data>
+</view>
+<text class='info'>亲爱的，摇一摇就能知道今天的运势！</text>
+<text class='info'>你摇的不是红包，而是你的心结</text>
+</view>
+
+<view class='container_middle'>
+<image src='../../src/images/btn.png' mode='aspectFit' class='middle_img' bindtap='navto'   data-href='../../pages/result/result'></image>
+</view>
+
+<view class='container_bottom'>
+<view class='btncontainer'>
+<button size='mini' type='warn' bindtap='navto'  data-href='../../pages/paihang/paihang'>排行榜</button>
+<button size='mini' type='primary' open-type='share'>邀请好友</button>
+<button size='mini' type='default' bindtap='navto' data-href='../../pages/zhanji/zhanji'>我的战绩</button>
+</view>
+</view>
+
+</view>

@@ -1,0 +1,48 @@
+<view class='userinfocontainer'>
+<view class="userinfo-avatar">
+<open-data type="userAvatarUrl" class='avatar'></open-data>
+</view>
+<view class="userinfo-userNickName">
+<open-data type="userNickName"></open-data>
+</view>
+</view>
+
+
+<view class='zhanji'>
+<view class='zhanji-item'>
+<text class='num'>{{nuli}}</text>
+<text class='title'>努力值</text>
+</view>
+
+<view class='zhanji-item'>
+<text class='num'>{{shili}}</text>
+<text class='title'>实力值</text>
+</view>
+
+<view class='zhanji-item'>
+<text class='num'>{{yunqi}}%</text>
+<text class='title'>运气值</text>
+</view>
+
+
+</view>
+
+ <view class='info'>
+
+ <open-data type="userNickName"></open-data>
+ <text>
+ 你好，我是赵征，一个会写代码的心理咨询师，很荣幸在这里与你相遇。
+ 《扑克测试》是我给我的好朋友们开发的一套心理扑克牌。
+ 通过摇一摇的方式帮助了解自己。
+ 如果你想和我有更多的交流
+ 可以加我的私人微信号：sky20100
+ 最后，
+ 祝你天天有个好心情！
+
+ 【秘密】
+ 本程序只对我的朋友开放。如果你看到了这套心理扑克牌，那就说明在你的六度空间里有认识我的朋友。“让生命遇见更多生命”的确是一件很有意思的事情……
+
+ 【声明】
+ 本程序的数据并不永久保留，随时可能会被更新清除！
+ </text>
+ </view>
